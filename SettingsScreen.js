@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-function NewsScreen(props) {
+function SettingsScreen(props) {
     return (
         <View style = {{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
             <Text>Settings</Text>
@@ -9,4 +9,4 @@ function NewsScreen(props) {
     );
 }
 
-export default NewsScreen;
+export default SettingsScreen;
